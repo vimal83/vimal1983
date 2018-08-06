@@ -9,6 +9,12 @@
     tools:context="com.example.android.background.MainActivity">
 
     <TextView
+        android:id="@+id/MyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My Name is vimal" />
+    <TextView
         android:id="@+id/tv_instructions"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
